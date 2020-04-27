@@ -1,5 +1,5 @@
 
-all: ./fib.c
+all: fib.c
 	gcc fib.c -o fib
 
 check:
