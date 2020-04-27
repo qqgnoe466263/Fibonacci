@@ -65,8 +65,6 @@ void BigN_add(struct BigN *output, struct BigN x, struct BigN y)
 static struct BigN fib(long long k)
 {
     struct BigN f[k + 2];
-    for (int i = 0; i < k + 2; i++)
-        BigN_init_zero(&f[i]);
 
     BigN_init(&f[0], "0");
     BigN_init(&f[1], "1");
