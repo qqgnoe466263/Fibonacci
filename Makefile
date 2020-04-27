@@ -3,7 +3,8 @@ all: fib.c
 	gcc fib.c -o fib
 
 check:
-	./fib 900
+	gcc fib.c -o fib -DFIB_DATA_W
+	./fib 934
 	./verify_fib.py
 
 clean:
