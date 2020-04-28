@@ -8,4 +8,4 @@ check:
 	./verify_fib.py
 
 clean:
-	rm fib fib.data fib.time
+	rm fib fib.data fib.time *.png
